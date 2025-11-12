@@ -18,3 +18,13 @@ airflow.db
 
 # OS
 .DS_Store
+
+airflow-scheduler.pid 
+airflow-scheduler.out 
+airflow-scheduler.log 
+airflow-scheduler.err 
+airflow-api_server.pid 
+airflow-api_server.out 
+airflow-api_server.err
+
+simple_auth_manager_passwords.json.generated
