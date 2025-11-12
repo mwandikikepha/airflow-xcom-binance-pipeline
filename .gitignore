@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Airflow
+airflow.db
+logs/
+dags/__pycache__/
+airflow-webserver.pid
+airflow-scheduler.pid
+*.err
+*.out
+*.log
+
+# Environment
+.env
+mainenv/
+venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
