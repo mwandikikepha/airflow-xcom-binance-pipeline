@@ -1,0 +1,7 @@
+2025-11-12 15:26:15,195 INFO - Starting log server on http://[::]:8793
+2025-11-12 15:26:15,255 INFO - Loaded executor: :LocalExecutor:
+2025-11-12 15:27:24,444 INFO - Setting next_dagrun for binance_etl_dag to 2025-11-13 00:00:00+00:00, run_after=2025-11-13 00:00:00+00:00
+2025-11-12 15:27:24,659 INFO - Worker starting up pid=79481
+2025-11-12 15:27:24,666 INFO - Worker starting up pid=79482
+2025-11-12 15:27:31,856 INFO - Setting next_dagrun for binance_etl_dag to 2025-11-13 00:00:00+00:00, run_after=2025-11-13 00:00:00+00:00
+2025-11-12 15:56:15,770 INFO - checking for stale bundle versions locally

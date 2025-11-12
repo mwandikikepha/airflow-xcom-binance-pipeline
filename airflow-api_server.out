@@ -1,0 +1,105 @@
+INFO:     127.0.0.1:56146 - "GET /dags HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "GET /static/assets/index-Cz_jYF4I.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56146 - "GET /ui/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "GET /static/i18n/locales/en/common.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56150 - "GET /static/i18n/locales/en/dashboard.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56158 - "GET /static/i18n/locales/en/dags.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56172 - "GET /static/i18n/locales/en/admin.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56182 - "GET /static/i18n/locales/en/assets.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56178 - "GET /static/i18n/locales/en/browse.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56150 - "GET /static/i18n/locales/en/components.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56172 - "GET /static/i18n/locales/en/hitl.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56172 - "GET /static/pin_32.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56172 - "GET /ui/auth/menus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56150 - "GET /api/v2/version HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56178 - "GET /api/v2/plugins HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56158 - "GET /api/v2/importErrors HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56182 - "GET /api/v2/dagTags?limit=10&offset=0&order_by=name&tag_name_pattern= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "GET /static/i18n/locales/en/dag.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56146 - "PATCH /api/v2/dags/binance_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
+[2m2025-11-12T12:27:27.103008Z[0m [[32m[1minfo     [0m] [1mTask started                  [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mhostname[0m=[35mkepha-Lenovo-G50-80[0m [36mloc[0m=[35mtask_instances.py:199[0m [36mprevious_state[0m=[35mqueued[0m [36mti_id[0m=[35m019a7808-f598-73bb-9b19-7ebf04209036[0m
+[2m2025-11-12T12:27:27.106537Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:212[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7808-f598-73bb-9b19-7ebf04209036[0m
+INFO:     127.0.0.1:35148 - "PATCH /execution/task-instances/019a7808-f598-73bb-9b19-7ebf04209036/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35148 - "PUT /execution/task-instances/019a7808-f598-73bb-9b19-7ebf04209036/heartbeat HTTP/1.1" 204 No Content
+[2m2025-11-12T12:27:27.208647Z[0m [[32m[1minfo     [0m] [1mUpdating RenderedTaskInstanceFields[0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mfield_count[0m=[35m3[0m [36mloc[0m=[35mtask_instances.py:672[0m [36mti_id[0m=[35m019a7808-f598-73bb-9b19-7ebf04209036[0m
+INFO:     127.0.0.1:35148 - "PUT /execution/task-instances/019a7808-f598-73bb-9b19-7ebf04209036/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:35148 - "POST /execution/xcoms/binance_etl_dag/scheduled__2025-11-12T00%3A00%3A00%2B00%3A00/extract_task/raw_data HTTP/1.1" 201 Created
+[2m2025-11-12T12:27:28.242939Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:409[0m [36mnew_state[0m=[35msuccess[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7808-f598-73bb-9b19-7ebf04209036[0m
+INFO:     127.0.0.1:35148 - "PATCH /execution/task-instances/019a7808-f598-73bb-9b19-7ebf04209036/state HTTP/1.1" 204 No Content
+[2m2025-11-12T12:27:29.331540Z[0m [[32m[1minfo     [0m] [1mTask started                  [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mhostname[0m=[35mkepha-Lenovo-G50-80[0m [36mloc[0m=[35mtask_instances.py:199[0m [36mprevious_state[0m=[35mqueued[0m [36mti_id[0m=[35m019a7808-f599-7b77-a7cc-9c2730ba7fbf[0m
+[2m2025-11-12T12:27:29.333478Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:212[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7808-f599-7b77-a7cc-9c2730ba7fbf[0m
+INFO:     127.0.0.1:45280 - "PATCH /execution/task-instances/019a7808-f599-7b77-a7cc-9c2730ba7fbf/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45280 - "PUT /execution/task-instances/019a7808-f599-7b77-a7cc-9c2730ba7fbf/heartbeat HTTP/1.1" 204 No Content
+[2m2025-11-12T12:27:29.421007Z[0m [[32m[1minfo     [0m] [1mUpdating RenderedTaskInstanceFields[0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mfield_count[0m=[35m3[0m [36mloc[0m=[35mtask_instances.py:672[0m [36mti_id[0m=[35m019a7808-f599-7b77-a7cc-9c2730ba7fbf[0m
+INFO:     127.0.0.1:45280 - "PUT /execution/task-instances/019a7808-f599-7b77-a7cc-9c2730ba7fbf/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:45280 - "GET /execution/xcoms/binance_etl_dag/scheduled__2025-11-12T00%3A00%3A00%2B00%3A00/extract_task/raw_data/slice HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45280 - "POST /execution/xcoms/binance_etl_dag/scheduled__2025-11-12T00%3A00%3A00%2B00%3A00/transform_task/clean_data HTTP/1.1" 201 Created
+[2m2025-11-12T12:27:29.734677Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:409[0m [36mnew_state[0m=[35msuccess[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7808-f599-7b77-a7cc-9c2730ba7fbf[0m
+INFO:     127.0.0.1:45280 - "PATCH /execution/task-instances/019a7808-f599-7b77-a7cc-9c2730ba7fbf/state HTTP/1.1" 204 No Content
+[2m2025-11-12T12:27:30.508035Z[0m [[32m[1minfo     [0m] [1mTask started                  [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mhostname[0m=[35mkepha-Lenovo-G50-80[0m [36mloc[0m=[35mtask_instances.py:199[0m [36mprevious_state[0m=[35mqueued[0m [36mti_id[0m=[35m019a7808-f59a-735c-b6a9-5fc7036b789f[0m
+[2m2025-11-12T12:27:30.510356Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:212[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7808-f59a-735c-b6a9-5fc7036b789f[0m
+INFO:     127.0.0.1:45288 - "PATCH /execution/task-instances/019a7808-f59a-735c-b6a9-5fc7036b789f/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45288 - "PUT /execution/task-instances/019a7808-f59a-735c-b6a9-5fc7036b789f/heartbeat HTTP/1.1" 204 No Content
+[2m2025-11-12T12:27:30.599039Z[0m [[32m[1minfo     [0m] [1mUpdating RenderedTaskInstanceFields[0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mfield_count[0m=[35m3[0m [36mloc[0m=[35mtask_instances.py:672[0m [36mti_id[0m=[35m019a7808-f59a-735c-b6a9-5fc7036b789f[0m
+INFO:     127.0.0.1:45288 - "PUT /execution/task-instances/019a7808-f59a-735c-b6a9-5fc7036b789f/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:45288 - "GET /execution/xcoms/binance_etl_dag/scheduled__2025-11-12T00%3A00%3A00%2B00%3A00/transform_task/clean_data/slice HTTP/1.1" 200 OK
+[2m2025-11-12T12:27:30.932281Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:409[0m [36mnew_state[0m=[35msuccess[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7808-f59a-735c-b6a9-5fc7036b789f[0m
+INFO:     127.0.0.1:45288 - "PATCH /execution/task-instances/019a7808-f59a-735c-b6a9-5fc7036b789f/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56146 - "GET /api/v2/dags/binance_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "GET /api/v2/dags/binance_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "POST /api/v2/dags/binance_etl_dag/dagRuns HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
+[2m2025-11-12T12:27:41.430672Z[0m [[32m[1minfo     [0m] [1mTask started                  [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mhostname[0m=[35mkepha-Lenovo-G50-80[0m [36mloc[0m=[35mtask_instances.py:199[0m [36mprevious_state[0m=[35mqueued[0m [36mti_id[0m=[35m019a7809-3347-7e24-a4b7-5e259643fd42[0m
+[2m2025-11-12T12:27:41.432888Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:212[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7809-3347-7e24-a4b7-5e259643fd42[0m
+INFO:     127.0.0.1:33236 - "PATCH /execution/task-instances/019a7809-3347-7e24-a4b7-5e259643fd42/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33236 - "PUT /execution/task-instances/019a7809-3347-7e24-a4b7-5e259643fd42/heartbeat HTTP/1.1" 204 No Content
+[2m2025-11-12T12:27:41.564315Z[0m [[32m[1minfo     [0m] [1mUpdating RenderedTaskInstanceFields[0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mfield_count[0m=[35m3[0m [36mloc[0m=[35mtask_instances.py:672[0m [36mti_id[0m=[35m019a7809-3347-7e24-a4b7-5e259643fd42[0m
+INFO:     127.0.0.1:33236 - "PUT /execution/task-instances/019a7809-3347-7e24-a4b7-5e259643fd42/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:33236 - "POST /execution/xcoms/binance_etl_dag/manual__2025-11-12T12%3A27%3A37%2B00%3A00/extract_task/raw_data HTTP/1.1" 201 Created
+[2m2025-11-12T12:27:43.318336Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:409[0m [36mnew_state[0m=[35msuccess[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7809-3347-7e24-a4b7-5e259643fd42[0m
+INFO:     127.0.0.1:33236 - "PATCH /execution/task-instances/019a7809-3347-7e24-a4b7-5e259643fd42/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56146 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
+[2m2025-11-12T12:27:43.727760Z[0m [[32m[1minfo     [0m] [1mTask started                  [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mhostname[0m=[35mkepha-Lenovo-G50-80[0m [36mloc[0m=[35mtask_instances.py:199[0m [36mprevious_state[0m=[35mqueued[0m [36mti_id[0m=[35m019a7809-3348-70a2-90c7-bf962340d912[0m
+[2m2025-11-12T12:27:43.730035Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:212[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7809-3348-70a2-90c7-bf962340d912[0m
+INFO:     127.0.0.1:33242 - "PATCH /execution/task-instances/019a7809-3348-70a2-90c7-bf962340d912/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33242 - "PUT /execution/task-instances/019a7809-3348-70a2-90c7-bf962340d912/heartbeat HTTP/1.1" 204 No Content
+[2m2025-11-12T12:27:43.820060Z[0m [[32m[1minfo     [0m] [1mUpdating RenderedTaskInstanceFields[0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mfield_count[0m=[35m3[0m [36mloc[0m=[35mtask_instances.py:672[0m [36mti_id[0m=[35m019a7809-3348-70a2-90c7-bf962340d912[0m
+INFO:     127.0.0.1:33242 - "PUT /execution/task-instances/019a7809-3348-70a2-90c7-bf962340d912/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:33242 - "GET /execution/xcoms/binance_etl_dag/manual__2025-11-12T12%3A27%3A37%2B00%3A00/extract_task/raw_data/slice HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33242 - "POST /execution/xcoms/binance_etl_dag/manual__2025-11-12T12%3A27%3A37%2B00%3A00/transform_task/clean_data HTTP/1.1" 201 Created
+[2m2025-11-12T12:27:44.080374Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:409[0m [36mnew_state[0m=[35msuccess[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7809-3348-70a2-90c7-bf962340d912[0m
+INFO:     127.0.0.1:33242 - "PATCH /execution/task-instances/019a7809-3348-70a2-90c7-bf962340d912/state HTTP/1.1" 204 No Content
+[2m2025-11-12T12:27:44.900081Z[0m [[32m[1minfo     [0m] [1mTask started                  [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mhostname[0m=[35mkepha-Lenovo-G50-80[0m [36mloc[0m=[35mtask_instances.py:199[0m [36mprevious_state[0m=[35mqueued[0m [36mti_id[0m=[35m019a7809-3349-7941-9e22-2970522b3b41[0m
+[2m2025-11-12T12:27:44.902776Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:212[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7809-3349-7941-9e22-2970522b3b41[0m
+INFO:     127.0.0.1:33248 - "PATCH /execution/task-instances/019a7809-3349-7941-9e22-2970522b3b41/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33248 - "PUT /execution/task-instances/019a7809-3349-7941-9e22-2970522b3b41/heartbeat HTTP/1.1" 204 No Content
+[2m2025-11-12T12:27:44.997960Z[0m [[32m[1minfo     [0m] [1mUpdating RenderedTaskInstanceFields[0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mfield_count[0m=[35m3[0m [36mloc[0m=[35mtask_instances.py:672[0m [36mti_id[0m=[35m019a7809-3349-7941-9e22-2970522b3b41[0m
+INFO:     127.0.0.1:33248 - "PUT /execution/task-instances/019a7809-3349-7941-9e22-2970522b3b41/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:33248 - "GET /execution/xcoms/binance_etl_dag/manual__2025-11-12T12%3A27%3A37%2B00%3A00/transform_task/clean_data/slice HTTP/1.1" 200 OK
+[2m2025-11-12T12:27:45.278195Z[0m [[32m[1minfo     [0m] [1mTask instance state updated   [0m [[0m[1m[34mairflow.api_fastapi.execution_api.routes.task_instances[0m][0m [36mloc[0m=[35mtask_instances.py:409[0m [36mnew_state[0m=[35msuccess[0m [36mrows_affected[0m=[35m1[0m [36mti_id[0m=[35m019a7809-3349-7941-9e22-2970522b3b41[0m
+INFO:     127.0.0.1:33248 - "PATCH /execution/task-instances/019a7809-3349-7941-9e22-2970522b3b41/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56146 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "GET /api/v2/dags/binance_etl_dag/dagRuns/manual__2025-11-12T12%3A27%3A37%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56182 - "GET /ui/backfills?dag_id=binance_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56158 - "GET /ui/grid/runs/binance_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56178 - "GET /ui/grid/structure/binance_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56146 - "GET /api/v2/dagWarnings?dag_id=binance_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56172 - "GET /ui/structure/structure_data?dag_id=binance_etl_dag&external_dependencies=false&version_number=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56182 - "GET /api/v2/dags/binance_etl_dag/dagRuns/manual__2025-11-12T12%3A27%3A37%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56150 - "GET /api/v2/dags/binance_etl_dag/dagRuns/manual__2025-11-12T12%3A27%3A37%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56178 - "GET /ui/structure/structure_data?dag_id=binance_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56182 - "GET /ui/grid/ti_summaries/binance_etl_dag/scheduled__2025-11-12T00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56178 - "GET /ui/grid/ti_summaries/binance_etl_dag/manual__2025-11-12T12%3A27%3A37%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56150 - "GET /ui/grid/ti_summaries/binance_etl_dag/manual__2025-11-12T12%3A24%3A39.376212%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36036 - "GET /ui/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36058 - "GET /ui/auth/menus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36050 - "GET /api/v2/version HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36074 - "GET /api/v2/plugins HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36058 - "GET /api/v2/dagWarnings?dag_id=binance_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36074 - "GET /ui/structure/structure_data?dag_id=binance_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36036 - "GET /api/v2/dags/binance_etl_dag/dagRuns/manual__2025-11-12T12%3A27%3A37%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36080 - "GET /api/v2/dags/binance_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36082 - "GET /api/v2/dags/binance_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36050 - "GET /api/v2/dags/binance_etl_dag/dagRuns/manual__2025-11-12T12%3A27%3A37%2B00%3A00/hitlDetails HTTP/1.1" 200 OK

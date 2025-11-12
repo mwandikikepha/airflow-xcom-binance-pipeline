@@ -1,0 +1,13 @@
+[2m2025-11-12T12:26:56.329211Z[0m [[32m[1minfo     [0m] [1mRunning the uvicorn with:
+Apps: all
+Workers: 1
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: -
+=================================================================[0m [[0m[1m[34mairflow.cli.commands.api_server_command[0m][0m [36mloc[0m=[35mapi_server_command.py:54[0m
+/home/kepha/mainenv/lib/python3.12/site-packages/airflow/api_fastapi/execution_api/routes/__init__.py:23 DeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+/home/kepha/mainenv/lib/python3.12/site-packages/airflow/api_fastapi/core_api/routes/public/__init__.py:36 DeprecationWarning: 'HTTP_422_UNPROCESSABLE_ENTITY' is deprecated. Use 'HTTP_422_UNPROCESSABLE_CONTENT' instead.
+INFO:     Started server process [79455]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+mainenv/
+venv/
+
+# Logs
+logs/
+*.log
+
+# Airflow database
+airflow.db
+
+# OS
+.DS_Store
